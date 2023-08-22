@@ -1,0 +1,64 @@
+/* css for html login page */
+body {
+  background-color: #b6bb38;
+}
+form {
+  border: 3px solid #342670;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #854242;
+  box-sizing: border-box;
+  font-size: xx-large;
+  tab-size: 6cm;
+}
+input[type="submit"] {
+  background-color: #342670;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size: xx-large;
+  /* change font size on hover */
+  font-size: 20px;
+}
+
+pre {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+span{
+  font-weight: bolder;
+  font-size: larger;
+  font-family: monospace;
+  color:#854242;
+}
+#first{
+  background-color: antiquewhite;
+  border: #342670;
+  border: 9px;
+  padding: 2%;
+  left: 3%;
+  height: 44px;
+  width: 299px;
+  border-color: aquamarine;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 63px;
+  color:rgb(122, 166, 199);
+  background-image: -webkit-image-set();
+}
+form{
+  background-image: url(/home/jatinkartik/Downloads/jatin_kartik_aadhar.jpg);
+  /* background-image: -o-repeating-linear-gradient(44); */
+  
+}
+#second{
+  color: #342670;
+}

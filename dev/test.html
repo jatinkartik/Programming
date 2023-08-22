@@ -1,0 +1,57 @@
+<!-- write a full login page with java script validation and with a welcome page and css style sheet -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="rss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function validateForm() {
+        var x = document.forms["hello"]["username"].value;
+        var y = document.forms["hello"]["password"].value;
+        if (x == "" || y == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="first">hello its jatin learning Css</h1>
+    <h1 id="second">hello its jatin stilll learning Css</h1>
+    <div class="divform">
+      <form action="welcome.php" method="post" id="hello">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+    <div>
+      <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum
+       <span>  ab eos, quae fugiat quaerat dolo</span>
+        r at doloremque, et expedita nobis voluptates provident dele
+        ctus fuga similique eius dolorum culpa. Numquam!
+    </pre>
+    </div>
+  </body>
+</html>
